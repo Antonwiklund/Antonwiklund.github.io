@@ -1,0 +1,30 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+
+    <!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Utveckling och Drift av Mjukvara | Studier.</title>
+<meta property="og:title" content="UDM 2017-2019." />
+<meta property="og:locale" content="Earth." />
+<meta property="og:image" content="https://www.timeshighereducation.com/sites/default/files/computer-programmer-coding-on-laptop.jpg" />
+<meta name="description" content="A site about my studies." />
+<meta property="og:description" content="Providing information about various courses, etc." />
+<link rel="canonical" href="http://jekyll.github.io/jekyll-seo-tag/installation/" />
+<meta property="og:url" content="http://jekyll.github.io/jekyll-seo-tag/installation/" />
+<meta property="og:site_name" content="UDM Anton Wiklund" />
+<script type="application/ld+json">
+{"name":null,"description":"A site about UDM 2017-2019.","author":Anton Wiklund,"@type":"WebPage","url":"http://jekyll.github.io/jekyll-seo-tag/installation/","image":null,"publisher":null,"headline":"UDM","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+</head>
