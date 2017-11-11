@@ -1,0 +1,10 @@
+
+// There is nothing on the page in need of protection. And even if there was,
+using a robots.txt doesn't seem like the right way to go about protecting the data against
+so called "Bad robots". So the general benefits, of having a site open for robots,
+for the internet at large, seem like they outweigh the potential downsides.
+Even "Good robots" could obviously be "bad", but it seems to me that having a site
+which is open to robots is, in the end, the most practical. 
+
+User-agent: *
+Disallow: /
