@@ -57,5 +57,3 @@ A link, that if you click on it, leads to a webpage about trekking in himalaya, 
 This could give the person recieving the link more of an incitament to actually decide whether the link might be of interest or not. Thus making it easier to decide whether to click on it or not.  
 It is put to use trough an HTML implementation.
 
-
-{% include disqus_comments.html %}

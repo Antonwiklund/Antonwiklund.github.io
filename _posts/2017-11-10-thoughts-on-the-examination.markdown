@@ -14,5 +14,3 @@ I think like that since the lack of information has had me sit and explore the v
 I can't say I enjoy creating websites. It feels to me like a horrible waste of time, since it's not something I want to be doing. However, I guess there is a relevance in understanding the basic concepts of how to create websites etc, since websites and the internet is such a huge part of the computers world and thus i suppose, potentially, the programmers.
 
 I look forward to moving on now, and returning to the more programming oriented part.  
-
-{% include disqus_comments.html %}

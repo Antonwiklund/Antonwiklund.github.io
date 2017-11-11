@@ -32,6 +32,11 @@ plugins:
 plugins:
   - jekyll-seo-tag
 
+
+disqus:
+  shortname: utvecklingavmjukvara
+
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
