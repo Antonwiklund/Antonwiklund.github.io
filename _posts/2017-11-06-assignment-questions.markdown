@@ -30,9 +30,8 @@ pre-compiling CSS code makes a lot of sense.
 By doing so I can create variables to hold various values. I can reuse these in different ways. I can create what could be considered CSS functions, which saves time, probably enhances performance, and compresses the code.  
 In regular CSS I will have to write the same thing several times. By pre-compiling, I still
 have to write the same thing several times, but I can for example use a preordained variable.
-This allows me to, in the end, write less code.
-
->For this webpage I created some variables, I made two mixins, I created a variable for a background-image etc. I have been trying to understand how it works, and I feel now that I grasp the basic concept, surrounding preprocessors(or atleast SASS), quite adequately (even if I still hardly know nothing). 
+This allows me to, in the end, write less code.  
+For this webpage I created some variables, I made two mixins, I created a variable for a background-image etc. I have been trying to understand how it works, and I feel now that I grasp the basic concept, surrounding preprocessors(or atleast SASS), quite adequately (even if I still hardly know nothing). 
 
 2. SSG's are new to me, as is basically the whole environment of creating websites. Even so, from what I've understood, an SSG will be more stable than many other kinds of websites.  
 The need for bandwidth is for example not as great as that of other kinds of site generators. It is also more safe, as it doesn't have as many functions which could be exploited by malware and hackers.
