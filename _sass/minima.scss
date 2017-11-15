@@ -36,6 +36,10 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
+// For navigation:
+$visited: 'a, a:active, a:hover, a:visited';
+$hover: 'a:active, a:hover';
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {

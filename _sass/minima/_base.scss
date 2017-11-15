@@ -85,6 +85,13 @@
   */
  h1, h2, h3, h4, h5, h6 {
    font-weight: $base-font-weight;
+   border:solid 4px #666; 
+   border-color:black; 
+   background-color:red; 
+   margin: -2px; 
+   padding-top:10px; 
+   margin-bottom:5px; 
+   text-align:center;
  }
  
  
@@ -95,21 +102,21 @@
  a {
    color: $brand-color;
    text-decoration: none;
- 
+    
    &:visited {
      color: darken($brand-color, 15%);
    }
  
    &:hover {
      color: $text-color;
-     text-decoration: underline;
-   }
+     text-decoration: overline;
+    }
  
    .social-media-list &:hover {
      text-decoration: none;
  
      .username {
-       text-decoration: underline;
+       text-decoration: overline;
      }
    }
  }
@@ -213,6 +220,6 @@
  
    li + li {
      padding-top: 5px;
-   }
+    }
  }
  
